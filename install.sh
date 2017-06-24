@@ -1,5 +1,6 @@
 #!/bin/bash
 
+/usr/bin/killall 3proxy
 rm -rf /etc/3proxy/ /etc/init.d/3proxy /usr/bin/3proxy
 
 mkdir /etc/3proxy/
